@@ -1,6 +1,6 @@
 import React from 'react';
 import { CONTACT_INFO } from '../constants';
-import { Mail, Phone, Github, Linkedin, Youtube, FileText } from 'lucide-react';
+import { Mail, Phone, Github, Linkedin, Youtube, FileText, Instagram } from 'lucide-react';
 import resumeUrl from '../src/resume.pdf';
 
 const Contact: React.FC = () => {
@@ -55,13 +55,14 @@ const Contact: React.FC = () => {
                <a href={CONTACT_INFO.github} target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white hover:scale-110 transition-transform"><Github /></a>
                <a href={CONTACT_INFO.linkedin} target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-white hover:scale-110 transition-transform"><Linkedin /></a>
                {CONTACT_INFO.youtube && <a href={CONTACT_INFO.youtube} target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-red-600 dark:hover:text-white hover:scale-110 transition-transform"><Youtube /></a>}
+               {CONTACT_INFO.instagram && <a href={CONTACT_INFO.instagram} target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-pink-600 dark:hover:text-white hover:scale-110 transition-transform"><Instagram /></a>}
             </div>
 
          </div>
 
          <footer className="mt-20 text-center border-t border-gray-200 dark:border-white/5 pt-8">
             <p className="text-gray-500 dark:text-gray-600 text-xs font-mono">
-               © {new Date().getFullYear()} NAVENDU. DESIGNED WITH FLUTTER & REACT.
+               404: COPYRIGHT NOT FOUND. BUT THE COFFEE WAS REAL. ☕
             </p>
          </footer>
       </section>

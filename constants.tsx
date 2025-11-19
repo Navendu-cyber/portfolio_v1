@@ -6,7 +6,8 @@ export const CONTACT_INFO = {
   phone: "+91 7306589241",
   linkedin: "https://www.linkedin.com/in/navendu-mp-flutter/",
   github: "https://github.com/Navendu-cyber",
-  youtube: "https://youtube.com/@cybertechy241?si=zvZP8RJ6XvKQDjjB"
+  youtube: "https://youtube.com/@cybertechy241?si=zvZP8RJ6XvKQDjjB",
+  instagram: "https://www.instagram.com/navend.u/" // Replace with your actual Instagram handle
 };
 
 export const HERO_CONTENT = {
