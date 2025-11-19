@@ -31,3 +31,8 @@ export interface Achievement {
   description: string;
   image?: string;
 }
+
+declare module '*.pdf' {
+  const content: string;
+  export default content;
+}

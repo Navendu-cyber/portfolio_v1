@@ -3,10 +3,10 @@ import { Project, ProjectCategory, SkillGroup, Achievement } from './types';
 
 export const CONTACT_INFO = {
   email: "navendu6002@gmail.com",
-  phone: "7306589241",
-  linkedin: "https://linkedin.com/in/navendu",
-  github: "https://github.com/navendu",
-  youtube: "https://youtube.com/@navendu"
+  phone: "+91 7306589241",
+  linkedin: "https://www.linkedin.com/in/navendu-mp-flutter/",
+  github: "https://github.com/Navendu-cyber",
+  youtube: "https://youtube.com/@cybertechy241?si=zvZP8RJ6XvKQDjjB"
 };
 
 export const HERO_CONTENT = {
