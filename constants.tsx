@@ -10,11 +10,11 @@ export const CONTACT_INFO = {
 };
 
 export const HERO_CONTENT = {
-  headline: "Hi, I’m Navendu — a Flutter Developer Who Builds Intelligent Hardware-Integrated Experiences.",
+  headline: "Hi, I’m Navendu Flutter Developer building smart, connected experiences that seamlessly integrate mobile apps with embedded hardware.",
   subtext: "I build mobile apps in Flutter and integrate them with embedded hardware and Linux-based systems to deliver end-to-end solutions enhanced by AI and automation."
 };
 
-export const ABOUT_CONTENT = "I’m Navendu — a developer who combines Flutter apps with embedded hardware and Linux systems to create reliable, real-world products. My focus is practical integration: apps that control devices, devices that report back, and AI that enhances user experience.";
+export const ABOUT_CONTENT = "I’m Navendu - a Flutter developer who integrates mobile apps with embedded hardware and Linux workflows to build dependable, real-world systems. I focus on practical connectivity: apps communicating with devices, devices sending data back, and AI making everything smarter.";
 
 export const SKILLS: SkillGroup[] = [
   {
