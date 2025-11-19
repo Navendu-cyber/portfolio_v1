@@ -59,13 +59,13 @@ export const ACHIEVEMENTS: Achievement[] = [
     title: "Inspire Award – MANAK",
     organization: "Govt. of India",
     description: "Awarded ₹10,000 for a smart home automation prototype innovation.",
-    image: "/src/INSPIRE.jpg"
+    image: "/INSPIRE.jpg"
   },
   {
     title: "AI Workshop Leader",
     organization: "PPTM College, Vengara",
     description: "From consuming knowledge to sharing it. Taught BBA students effective AI prompting and practical automation techniques.",
-    image: "/src/PPTMS.jpg"
+    image: "/PPTMS.jpg"
   }
 ];
 
@@ -85,7 +85,7 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Flutter', 'Hive', 'PDF Generation', 'Scanner'],
     category: ProjectCategory.SOFTWARE,
-    imageUrl: "/src/estocker.png",
+    imageUrl: "/estocker.png",
     status: "Deployed",
     githubUrl: 'https://github.com/Navendu-cyber/E_Stocker',
     demoUrl: 'https://www.linkedin.com/posts/navendu-mp-flutter_inventorymanagement-digitaltransformation-activity-7312508074269761536-zcnf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFKq-g8BGnzTgLAhXCEVU-k53kAW5-tJYZkm'
@@ -103,7 +103,7 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Flutter', 'UDP', 'Networking'],
     category: ProjectCategory.SOFTWARE,
-    imageUrl: "/src/wakeease.png",
+    imageUrl: "/wakeease.png",
     status: "v1.0.0"
   },
   // Hardware
@@ -120,7 +120,7 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['ESP32', 'C++', 'OLED', 'Encoder'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "/src/wifi.png",
+    imageUrl: "/wifi.png",
     status: "System Active",
     demoUrl: 'https://www.linkedin.com/posts/navendu-mp-flutter_cybersecurity-esp32-iotdevelopment-activity-7324477262014070785-FAKn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFKq-g8BGnzTgLAhXCEVU-k53kAW5-tJYZk'
   },
@@ -137,7 +137,7 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Python', 'Linux', 'Speech Recognition', 'NLP'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "src/hexa.png",
+    imageUrl: "/hexa.png",
     status: "Online",
     demoUrl: 'https://www.linkedin.com/posts/navendu-mp-flutter_edgecomputing-privacyfirst-offlineai-activity-7321825308951678976-cpsb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFKq-g8BGnzTgLAhXCEVU-k53kAW5-tJYZk',
     githubUrl: 'https://github.com/Navendu-cyber/lixi_voice_typer'
@@ -155,7 +155,7 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['OpenCV', 'Python', 'Flutter Interface'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "src/music.png",
+    imageUrl: "/music.png",
     status: "Processing",
     demoUrl: 'https://www.linkedin.com/posts/navendu-mp-flutter_ai-musictech-computervision-activity-7316805708098789376-RMeH?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFKq-g8BGnzTgLAhXCEVU-k53kAW5-tJYZk'
   },
@@ -172,7 +172,7 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Flutter', 'BLE', 'Arduino', 'C++'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "src/aura.png",
+    imageUrl: "/aura.png",
     status: "Enabled"
   },
   {
@@ -188,7 +188,7 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Serial Comm', 'Python', 'Hardware Interface'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "src/monitor.jpg",
+    imageUrl: "/monitor.jpg",
     status: "Monitoring",
     githubUrl: 'https://github.com/Navendu-cyber/cpu_monitor_ESP_32_usb_serail',
   }

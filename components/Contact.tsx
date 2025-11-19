@@ -1,7 +1,7 @@
 import React from 'react';
 import { CONTACT_INFO } from '../constants';
 import { Mail, Phone, Github, Linkedin, Youtube, FileText, Instagram } from 'lucide-react';
-import resumeUrl from '../src/resume.pdf';
+// import resumeUrl from '../src/resume.pdf'; // Removed import
 
 const Contact: React.FC = () => {
    return (
@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
 
             {/* Resume Button - Moved to top */}
             <a
-               href={resumeUrl}
+               href="/resume.pdf"
                download="Navendu_Resume.pdf"
                className="inline-flex px-8 py-4 bg-gradient-to-r from-neon-blue to-neon-cyan text-black font-bold rounded hover:opacity-90 transition-opacity items-center gap-2 mx-auto mb-12 shadow-lg shadow-neon-blue/20"
             >

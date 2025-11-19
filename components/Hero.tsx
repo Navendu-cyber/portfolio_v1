@@ -78,9 +78,9 @@ const Hero: React.FC = () => {
               {/* Image Place Holder - Replace src with your actual photo */}
               <div className="w-full h-full bg-gray-200 dark:bg-gray-800 relative">
                 <img
-                  src="/src/profile.jpg"
+                  src="/profile.jpg"
                   alt="Navendu"
-                  className="w-full h-full object-cover mix-blend-overlay opacity-90 group-hover:opacity-100 group-hover:mix-blend-normal transition-all duration-500"
+                  className="w-full h-full object-cover opacity-100 mix-blend-normal transition-all duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-neon-blue/10 to-transparent pointer-events-none" />
 
