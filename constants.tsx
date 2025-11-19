@@ -26,10 +26,11 @@ export const SKILLS: SkillGroup[] = [
       "Provider, Bloc, GetX",
       "DSA & Problem Solving",
       "App Architecture & UI/UX"
-    ]
+    ],
+
   },
   {
-    title: "Taming the Electrons",
+    title: "Systems That Talk to Devices",
     icon: Cpu,
     skills: [
       "Embedded Hardware Dev",
@@ -40,7 +41,7 @@ export const SKILLS: SkillGroup[] = [
     ]
   },
   {
-    title: "Teaching Sand to Think",
+    title: "AI,Automation & Intelligence",
     icon: Bot,
     skills: [
       "n8n Automation Flows",
@@ -56,14 +57,14 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     title: "Inspire Award – MANAK",
     organization: "Govt. of India",
-    description: "Awarded ₹15,000 for a smart home automation prototype innovation.",
-    image: "https://picsum.photos/400/250?random=1"
+    description: "Awarded ₹10,000 for a smart home automation prototype innovation.",
+    image: "/src/INSPIRE.jpg"
   },
   {
     title: "AI Workshop Leader",
     organization: "PPTM College, Vengara",
-    description: "“From consuming knowledge to sharing it.” Taught BBA students effective AI prompting and practical automation techniques.",
-    image: "https://picsum.photos/400/250?random=2"
+    description: "From consuming knowledge to sharing it. Taught BBA students effective AI prompting and practical automation techniques.",
+    image: "/src/PPTMS.jpg"
   }
 ];
 
@@ -73,21 +74,24 @@ export const PROJECTS: Project[] = [
     id: 's1',
     title: 'E-Stocker',
     description: 'Inventory Management System featuring barcode/QR scanning, invoice generation, and real-time stock tracking.',
-    longDescription: "E-Stocker is a comprehensive inventory management solution built with Flutter. It bridges the gap between physical stock and digital records using the device camera for rapid barcode scanning. The app handles complex invoicing logic, generates PDF reports on the fly, and syncs data in real-time across multiple devices using Firebase.",
+    longDescription: "E-Stocker is a comprehensive inventory management solution built with Flutter. It bridges the gap between physical stock and digital records using the device camera for rapid barcode scanning. The app handles complex invoicing logic, generates PDF reports on the fly, and syncs data in real-time across multiple devices using Hive.",
     features: [
-      "Real-time Firebase Database Sync",
+      "Real-time Hive Database Sync",
       "PDF Invoice Generation & Sharing",
       "Barcode & QR Code Scanner Integration",
-      "Role-based User Authentication"
+      "Role-based User Authentication",
+      "View Your monthly Daily Stock Report"
     ],
-    techStack: ['Flutter', 'Firebase', 'PDF Generation'],
+    techStack: ['Flutter', 'Hive', 'PDF Generation', 'Scanner'],
     category: ProjectCategory.SOFTWARE,
-    imageUrl: "https://picsum.photos/600/400?random=8",
-    status: "Deployed"
+    imageUrl: "/src/estocker.png",
+    status: "Deployed",
+    githubUrl: 'https://github.com/Navendu-cyber/E_Stocker',
+    demoUrl: 'https://www.linkedin.com/posts/navendu-mp-flutter_inventorymanagement-digitaltransformation-activity-7312508074269761536-zcnf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFKq-g8BGnzTgLAhXCEVU-k53kAW5-tJYZkm'
   },
   {
     id: 's3',
-    title: 'Wake-on-LAN App',
+    title: 'Wake-Ease',
     description: 'Local network utility to wake machines via LAN magic packets from a mobile interface.',
     longDescription: "A utility tool for network administrators and power users. This Flutter app scans the local network to discover devices and allows sending Wake-on-LAN (WoL) magic packets to boot up machines remotely. It includes a history of managed devices and status checking via ping.",
     features: [
@@ -98,7 +102,7 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Flutter', 'UDP', 'Networking'],
     category: ProjectCategory.SOFTWARE,
-    imageUrl: "https://picsum.photos/600/400?random=10",
+    imageUrl: "/src/wakeease.png",
     status: "v1.0.0"
   },
   // Hardware
@@ -106,21 +110,22 @@ export const PROJECTS: Project[] = [
     id: 'h1',
     title: 'Wi-Fi Deauth & Signal Tool',
     description: 'A completed hardware device for wireless signal experiments with an on-device display and physical controls.',
-    longDescription: "This custom-built hardware tool is designed for network security research. Built around the ESP8266, it features a custom PCB, an OLED display for real-time packet visualization, and a rotary encoder for standalone menu navigation. It can perform deauthentication attacks (for testing purposes) and analyze signal strength distributions.",
+    longDescription: "This custom-built hardware tool is designed for network security research. Built around the ESP 32, it features a custom PCB, an OLED display for real-time packet visualization, and a rotary encoder for standalone menu navigation. It can perform deauthentication attacks (for testing purposes) and analyze signal strength distributions.",
     features: [
       "Packet Injection & Monitoring",
       "Standalone OLED Interface",
       "Physical Rotary Encoder Control",
       "Portable Battery Power"
     ],
-    techStack: ['ESP8266', 'C++', 'OLED', 'Embedded'],
+    techStack: ['ESP32', 'C++', 'OLED', 'Encoder'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "https://picsum.photos/600/400?random=3",
-    status: "System Active"
+    imageUrl: "/src/wifi.png",
+    status: "System Active",
+    demoUrl: 'https://www.linkedin.com/posts/navendu-mp-flutter_cybersecurity-esp32-iotdevelopment-activity-7324477262014070785-FAKn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFKq-g8BGnzTgLAhXCEVU-k53kAW5-tJYZk'
   },
   {
     id: 'h2',
-    title: 'Hexa — Offline AI Voice Assistant',
+    title: 'Hexa Offline AI Voice Assistant',
     description: 'A privacy-first, local voice assistant running on Linux devices for smart device control without cloud dependency.',
     longDescription: "Hexa is a voice assistant that prioritizes privacy by running entirely offline. It utilizes VOSK for speech-to-text and a custom Python engine for intent recognition. Running on a Raspberry Pi, it interfaces with Home Assistant via MQTT to control IoT devices without sending voice data to external cloud servers.",
     features: [
@@ -131,8 +136,10 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Python', 'Linux', 'Speech Recognition', 'NLP'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "https://picsum.photos/600/400?random=4",
-    status: "Online"
+    imageUrl: "src/hexa.png",
+    status: "Online",
+    demoUrl: 'https://www.linkedin.com/posts/navendu-mp-flutter_edgecomputing-privacyfirst-offlineai-activity-7321825308951678976-cpsb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFKq-g8BGnzTgLAhXCEVU-k53kAW5-tJYZk',
+    githubUrl: 'https://github.com/Navendu-cyber/lixi_voice_typer'
   },
   {
     id: 'h3',
@@ -147,8 +154,9 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['OpenCV', 'Python', 'Flutter Interface'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "https://picsum.photos/600/400?random=5",
-    status: "Processing"
+    imageUrl: "src/music.png",
+    status: "Processing",
+    demoUrl: 'https://www.linkedin.com/posts/navendu-mp-flutter_ai-musictech-computervision-activity-7316805708098789376-RMeH?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFKq-g8BGnzTgLAhXCEVU-k53kAW5-tJYZk'
   },
   {
     id: 'h4',
@@ -163,8 +171,8 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Flutter', 'BLE', 'Arduino', 'C++'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "https://picsum.photos/600/400?random=6",
-    status: "Syncing"
+    imageUrl: "src/aura.png",
+    status: "Enabled"
   },
   {
     id: 'h5',
@@ -179,7 +187,9 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ['Serial Comm', 'Python', 'Hardware Interface'],
     category: ProjectCategory.HARDWARE,
-    imageUrl: "https://picsum.photos/600/400?random=7",
-    status: "Monitoring"
+    imageUrl: "src/monitor.jpg",
+    status: "Monitoring",
+    githubUrl: 'https://github.com/Navendu-cyber/cpu_monitor_ESP_32_usb_serail',
   }
+
 ];
